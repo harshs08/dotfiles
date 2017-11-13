@@ -1,0 +1,39 @@
+"*":
+  "autocomplete-ruby":
+    rsensePath: "/usr/local/var/rbenv/shims/rsense"
+  core:
+    disabledPackages: [
+      "autocomplete-ruby"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontSize: 22
+    invisibles: {}
+    preferredLineLength: 120
+    scrollSensitivity: 60
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "55583558-78f4-4fbf-b8af-0cf070342615"
+  github:
+    filesystemEventDiagnostics: true
+    gitDiagnostics: true
+    viewChangesForCurrentFileDiffPaneSplitDirection: "right"
+  "goto-definition":
+    performanceMode: true
+  "linter-rubocop":
+    command: "/usr/local/var/rbenv/shims/rubocop"
+  "linter-ui-default": {}
+  "markdown-preview":
+    breakOnSingleNewline: true
+  "one-dark-ui":
+    fontSize: 20
+  welcome:
+    showOnStartup: false
